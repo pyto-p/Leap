@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*TITLE*/
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title > h1 {
+        font-size: 80px;
+        width: 50%;
+    }
+
+/*SEARCH*/
+    .searches {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .search-cont {
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        gap: 50px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .searchbar {
+        height: 50px;
+        width: 500px;
+        border: 1px solid #c5bcbc;
+        border-radius: 50px;
+        display: flex;
+        justify-content: end;
+        padding: 0px 20px;
+    }
+
+    .search-txt {
+        padding: 10px;
+        border-radius: 20px;
+
+    }
+
+    input {
+        width: 100%;
+        border: 0px;
+        outline: none;
+    }
+
+/*HEADER*/
+    #header{
+        background-color: #556f44;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .nav_head{
+            color: whitesmoke;
+            font-family: "open sans", sans-serif;
+            font-size: 22px;
+            margin-inline: 30px;
+        }
+        
+        .nav_btn{
+            background-color: transparent;
+            margin-inline:15px;
+            color: whitesmoke;
+            font-family: "open sans", sans-serif;
+            border: 0;
+            font-size: 22px;
+        }
+        
+        .nav_btn1{
+            background-color: #95BF74;
+            border-radius: 50px;
+            margin-inline: 15px;
+            color: #283f3b;
+            font-family: "open sans", sans-serif;
+            width: 125px;
+            height: 60px;
+            border: 0px;
+        }
+        
+        .nav_btn1:hover{
+            color: #283f3b;
+            font-family: "open sans", sans-serif;
+            background-color: #99DDC8;
+        }
+        
+        .nav_btn2{
+            background-color: #99DDC8;
+            border-radius: 50px;
+            margin-inline: 15px;
+            color: #283f3b;
+            font-family: "open sans", sans-serif;
+            width: 125px;
+            height: 60px;
+            border: 0px;
+        }
+        
+        .nav_btn2:hover{
+            color: #283f3b;
+            font-family: "open sans", sans-serif;
+            background-color: #95BF74;
+        }
+        
+        .logo{
+            width: auto;
+            height: 75px;
+        }
+  
