@@ -8,9 +8,11 @@ body {
     .title {
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
 
     .title > h1 {
+        padding: 15px;
         font-size: 80px;
         width: 50%;
     }
@@ -32,6 +34,7 @@ body {
 
     h2 {
         font-size: 32px;
+        padding-bottom: 15px;
     }
 
     .searchbar {
@@ -42,6 +45,7 @@ body {
         display: flex;
         justify-content: end;
         padding: 0px 20px;
+        margin-bottom: 220px;
     }
 
     .search-txt {
@@ -120,5 +124,52 @@ body {
         .logo{
             width: auto;
             height: 75px;
+            padding-bottom: 10px;
         }
+    
+    /*FOOTER*/
+        #footer{
+        background-color: #556f44;
+        width: 100%;
+        height: 8%;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        vertical-align: bottom;
+        }
+
+            .nav_foot{
+            color: whitesmoke;
+            font-family: "open sans", sans-serif;
+            font-size: 19px;
+            margin-inline: 30px;
+            padding-right: 30px;
+            }
+            
+            .logo2{
+                width: auto;
+                height: 85px;
+                padding-bottom: 25px;
+            }
+
+            .logo3{
+                width: auto;
+                height: 80px;
+            }
+
+            .logo4{
+                width: auto;
+                height: 78px;
+            }
+
+            .logo5{
+                width: auto;
+                height: 81px;
+            }
+
+            .tab{
+                width: auto;
+                height: 130px;
+            }
   
